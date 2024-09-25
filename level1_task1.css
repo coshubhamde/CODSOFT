@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  header {
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header .logo h1 {
+    margin: 0;
+  }
+  
+  .tagline {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  #about .about-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  #skills ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  #skills ul li {
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    border-radius: 25px;
+  }
+  
+  #projects .project {
+    margin-bottom: 40px;
+  }
+  
+  .project-img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #resume a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #282c34;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  #resume a:hover {
+    background-color: #4a90e2;
+  }
+  
+  #contact a {
+    color: #4a90e2;
+    text-decoration: none;
+  }
+  
+  #contact a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
